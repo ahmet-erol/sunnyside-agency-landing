@@ -5,9 +5,9 @@
 
 body {
   background-image: url("images/image-header.jpg");
-  background-size: cover; /* Resmin tam olarak arka planı kaplamasını sağlar */
-  background-position: center; /* Resmin ortalanmasını sağlar */
-  background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .top-container {
@@ -68,5 +68,5 @@ body {
   letter-spacing: 10px;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 41px;
 }
