@@ -77,6 +77,7 @@ body {
 
 .mid-container {
   display: flex;
+  flex-direction: column;
 }
 
 .first-box-line {
@@ -111,4 +112,45 @@ body {
   font-size: 30px;
   font-weight: 900;
   color: #263042;
+}
+
+.second-box-line {
+  display: flex;
+}
+
+.left-second {
+  flex: 2;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 50%;
+}
+
+.right-second {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+}
+
+.left-second img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  font-family: "Barlow", sans-serif;
+  color: #88878f;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.learnmore {
+  font-family: "Fraunces", serif;
+  color: #263042;
+  font-weight: 700;
+  margin-top: 35px;
 }
