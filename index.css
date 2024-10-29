@@ -154,3 +154,35 @@ body {
   font-weight: 700;
   margin-top: 35px;
 }
+
+.third-box-line {
+  display: flex;
+}
+
+.left-third {
+  flex: 2;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 50%;
+}
+
+.right-third {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+}
+
+.left-third img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-third img {
+  max-width: 100%;
+  height: auto;
+}
