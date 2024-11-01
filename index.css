@@ -160,6 +160,7 @@ body {
 }
 
 .left-third {
+  position: relative;
   flex: 2;
   display: flex;
   width: 50%;
@@ -185,4 +186,171 @@ body {
 .right-third img {
   max-width: 100%;
   height: auto;
+}
+
+.overlaytext {
+  position: absolute;
+  margin-top: 250px;
+}
+
+.overlayh {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #1f5148;
+  display: flex;
+  justify-content: center;
+}
+
+.overlayp {
+  font-family: "Barlow", sans-serif;
+  color: #427c6e;
+  font-weight: 600;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.overlayh2 {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #1c556c;
+  display: flex;
+  justify-content: center;
+}
+
+.overlayp2 {
+  font-family: "Barlow", sans-serif;
+  color: #3180a7;
+  font-weight: 600;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+}
+.mid-down-container {
+  display: flex;
+  flex-direction: column;
+}
+.mid-down-top {
+  display: flex;
+  height: 550px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.clienth {
+  display: flex;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: #a7abae;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 125px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  background-color: white;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.personelinfos {
+  font-family: "Barlow", sans-serif;
+  color: #61646d;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: #23313c;
+}
+
+.position {
+  font-family: "Barlow", sans-serif;
+  color: #aaa9a8;
+  font-size: 13px;
+  margin-top: -39px;
+}
+
+.mid-down-bottom {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+}
+
+.mid-down-bottom img {
+  flex: 1;
+  height: 390px;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #90d4c5;
+}
+
+.footer-top {
+  font-family: "Barlow", sans-serif;
+  /* font-family: "Fraunces", serif; */
+  font-weight: 700;
+  color: #297163;
+  font-size: 35px;
+  margin-top: 45px;
+  line-height: 1.5;
+}
+
+.footer-mid {
+  display: flex;
+  gap: 50px;
+}
+.footer-buttons {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  color: #498d7e;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.footer-bottom {
+  margin-bottom: 45px;
+  display: flex;
+  gap: 25px;
 }
