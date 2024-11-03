@@ -87,19 +87,16 @@ body {
 .left {
   flex: 1;
   display: flex;
-  width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 50%;
 }
 
 .right {
-  width: 50%;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50%;
 }
 
 .right img {
@@ -119,21 +116,18 @@ body {
 }
 
 .left-second {
-  flex: 2;
+  flex: 1;
   display: flex;
-  width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 50%;
 }
 
 .right-second {
-  width: 50%;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50%;
 }
 
 .left-second img {
@@ -161,21 +155,18 @@ body {
 
 .left-third {
   position: relative;
-  flex: 2;
+  flex: 1;
   display: flex;
-  width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 50%;
 }
 
 .right-third {
-  width: 50%;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50%;
 }
 
 .left-third img {
@@ -353,4 +344,41 @@ body {
   margin-bottom: 45px;
   display: flex;
   gap: 25px;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+@media (max-width: 320px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-box-line {
+    flex-direction: column-reverse;
+  }
+
+  .second-box-line {
+    flex-direction: column;
+  }
+
+  .third-box-line {
+    flex-direction: column;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
 }
