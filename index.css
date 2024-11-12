@@ -381,4 +381,13 @@ body {
   .desktop {
     display: none;
   }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .mid-down-top {
+    flex-direction: column;
+  } */
 }
