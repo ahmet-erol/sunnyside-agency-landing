@@ -363,6 +363,30 @@
 
 /*Tablet*/
 @media only screen and (max-width: 768px) and (min-width: 427px) {
+  .top-container {
+    width: 155%;
+  }
+
+  .first-box-line {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .right {
+    justify-content: flex-end;
+  }
+
+  .first-box-line img {
+    width: 100%;
+  }
+
+  .mid-container {
+    width: 155%;
+  }
+
+  .content-container {
+    text-align: center;
+  }
 }
 /*Tablet*/
 
