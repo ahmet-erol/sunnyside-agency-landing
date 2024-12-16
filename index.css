@@ -29,6 +29,11 @@
   font-size: 25px;
 }
 
+.content-container {
+  text-align: center;
+  padding: 10px;
+}
+
 .header-right {
   /* display: flex;
   gap: 35px;
@@ -163,6 +168,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .left-third img {
@@ -222,10 +228,11 @@
 .mid-down-container {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .mid-down-top {
   display: flex;
-  height: 550px;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -238,7 +245,6 @@
   font-size: 20px;
   letter-spacing: 2px;
   text-align: center;
-  margin-top: 125px;
 }
 
 .cards {
@@ -249,8 +255,6 @@
 }
 
 .card {
-  height: 500px;
-  width: 300px;
   background-color: white;
   margin-top: 80px;
   display: flex;
@@ -275,6 +279,7 @@
   text-align: center;
   line-height: 1.5;
   font-size: 15px;
+  padding: 10px;
 }
 
 .name {
@@ -287,7 +292,6 @@
   font-family: "Barlow", sans-serif;
   color: #aaa9a8;
   font-size: 13px;
-  margin-top: -39px;
 }
 
 .mid-down-bottom {
@@ -363,8 +367,20 @@
 
 /*Tablet*/
 @media only screen and (max-width: 768px) and (min-width: 427px) {
+  .header-container {
+    padding: 20px;
+  }
+
+  .header-right #mobile-menu {
+    gap: 20px;
+  }
+  .contact-button {
+    height: 30px;
+    width: 70px;
+
+    font-size: 12px;
+  }
   .top-container {
-    width: 155%;
   }
 
   .first-box-line {
@@ -381,11 +397,70 @@
   }
 
   .mid-container {
-    width: 155%;
   }
 
   .content-container {
     text-align: center;
+  }
+
+  .overlayp {
+    font-size: 9px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .overlayh {
+    font-size: 15px;
+    margin-top: -110px;
+    margin-bottom: -22px;
+  }
+
+  .overlayp2 {
+    font-size: 9px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .overlayh2 {
+    font-size: 15px;
+    margin-top: -110px;
+    margin-bottom: -22px;
+  }
+
+  .overlaytext {
+    margin-top: 235px;
+  }
+
+  .text-one {
+    font-size: 15px;
+  }
+
+  .content {
+    font-family: "Barlow", sans-serif;
+    color: #88878f;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 9px;
+    padding-left: 7px;
+    padding-right: 6px;
+  }
+
+  .learnmore {
+    font-family: "Fraunces", serif;
+    color: #263042;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    gap: 15px;
+    margin-top: 30px;
   }
 }
 /*Tablet*/
@@ -422,7 +497,6 @@
 
   .mid-down-top {
     display: flex;
-    height: 1300px;
     flex-direction: column;
   }
 
@@ -430,7 +504,6 @@
     flex-direction: column;
     align-items: center;
     display: flex;
-    margin-top: 40px;
   }
   .cards {
     flex-direction: column;
@@ -445,7 +518,7 @@
 
   .card {
     display: flex;
-    margin-bottom: -176px;
+    gap: 43px;
   }
 
   .footer {
